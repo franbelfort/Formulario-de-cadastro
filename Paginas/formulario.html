@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
-    <p><h2>Formulario de cadastro</h2></p>
-    <form action="" method="post">
+    <h1 id="title">Formulário de cadastro</h1>
+    <h3 class="subtitle">Preencha com suas informações</h3>
+    <form>
+        <fieldset class="sombra">
+            
         <table>
             <tr>
                 <td><label for="nome">Nome</label></td>
@@ -18,6 +22,8 @@
                 <td><input type="text" id="nome" name="nome" placeholder="Nome"></td>
                 <td><input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required="true"></td>
             </tr>
+        </p>
+        </fieldset>
             <tr>
                 <td><label for="email">Email</label></td>
                 <td><label for="dataNasc">Data de Nascimento</label></td>
@@ -29,11 +35,11 @@
             <tr>
                 <td><label for="endereco">Endereço</label></td>
                 <td><label for="estado">Estado</label></td>
+                
             </tr>
             <tr>
                 <td><input type="text" name="endereco" id="endereco" placeholder="Endereço" required="true"></td>
-                <td>
-                    <select name="estado" id="estado" required="true">
+                    <td><select name="estado" id="estado" required="true">
                         <option value="">Selecione</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
@@ -64,7 +70,7 @@
                         <option value="TO">Tocatins</option>
                     </select>
                 </td>
-            </tr>
+                </tr>
             <tr>
                 <td><label for="cidade">Cidade</label></td>
                 <td><label for="cep">CEP</label></td>
@@ -88,7 +94,7 @@
                 <td><input type="file" name="cpf" id="cpf"></td>
                 <td><input type="file" name="rg" id="rg"></td>
             <tr>
-                <td><input type="submit" id="submit" name="submit" value="Enviar"></td>
+                <td><input class="button submit__hover" type="submit" id="submit" name="submit" value="Enviar"></td>
             </tr>
         </table>
     </form>
