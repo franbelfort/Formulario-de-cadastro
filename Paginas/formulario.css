@@ -1,18 +1,19 @@
+*{
+    margin:15;
+    padding:15;
+}
+
 body{
-    background-color: #d6a956;
+    background: linear-gradient(to right, rgb(158, 157, 243), rgb(72, 5, 93));
     font-family: sans-serif;
     margin-left: 15%;
     margin-top: 5%;
     justify-content:center;
     
 }
-*{
-    margin:15;
-    padding:15;
-}
 
 #title{
-    color: #19058b;
+    color: #fff;
     font-size: 40px;
     font-family:'Arial';
     margin-left: 25%;
@@ -20,40 +21,43 @@ body{
 
 .subtitle{
     font-family: 'Arial';
-    color:#a50770;
+    color:#f3addb;
     margin-left:30%;
 }
+
 form{
     color: #2f0879;
     border-radius: 40px;
-    font-family: 'Arial';
-    
+    font-family: 'Arial';  
 }
+
 .sombra{
-    box-shadow: rgb(70, 54, 2) 0.5em 0.5em 3em
+    box-shadow: rgb(51, 7, 102) 0.5em 0.5em 3em
 }
 
 fieldset{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:#f1a604;
+    background-color:#f5c9f6;
     border-radius: 30px;
-    border-color:#926c02;
+    border-color:#ce88f9;
     margin:10x;
     margin-right: 5000px;
     margin-left: 190px;
-    color:rgb(42, 28, 121)
+    color:rgb(72, 5, 93);
 }
+
 .button{
     border-radius: 40px;
-    background-color: rgb(8, 1, 70);
+    background-color:rgb(72, 5, 93);
     color:aliceblue;
 }
+
 .submit__hover:hover{
-    background-color:#f5c894
+    background-color:#d3a8f4;
+    color:black;
 }
+
 input, textarea, select{
     border-radius:5px;
     font-family: sans-serif;
-
 }
-
